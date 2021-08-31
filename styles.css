@@ -30,7 +30,7 @@ header {
   grid-area: header;
   background-color: black;
   border-radius: 2rem;
-  align-text: center;
+  text-align: center;
 }
 
 nav {
@@ -46,7 +46,7 @@ main {
   background-color: black;
   border-radius: 1rem;
   width: 100%;
-  align-text: center;
+  text-align: center;
   }
 
 main p {
