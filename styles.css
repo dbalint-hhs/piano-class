@@ -61,6 +61,10 @@ main {
   display: none;
 }
 
+#level-1-button:hover, #level-2-button:hover {
+  cursor: pointer;
+}
+
 ul {
   list-style-type: none;
   padding: 0;
