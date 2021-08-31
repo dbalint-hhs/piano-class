@@ -49,6 +49,10 @@ nav ul li {
   font-weight: bolder;
 }
 
+.level-button:hover {
+  cursor: pointer; 
+}
+
 main {
   grid-area: main;
   background-color: black;
