@@ -2,3 +2,20 @@
 box-sizing: border-box;
 }
 
+
+body {
+  display: grid;
+  align-items: center;
+  background-color: white;
+}
+
+#content-wrapper {
+  display: grid;
+  grid-template-areas: 
+    "header header header"
+    "nav main main";
+  background-color: black;
+  max-width: 1349px;
+  }
+ 
+
