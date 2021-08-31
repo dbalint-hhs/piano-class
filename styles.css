@@ -15,7 +15,7 @@ body {
   grid-template-areas: 
     "header header header"
     "nav main main";
-  grid-gap: 2rem;
+  gap: 2rem;
   background-color: black;
   width: 100%;
   max-width: 1349px;
