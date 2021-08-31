@@ -57,6 +57,10 @@ main {
   text-align: center;
   }
 
+#level-1-list, #level-2-list {
+  display: none;
+}
+
 ul {
   list-style-type: none;
   padding: 0;
