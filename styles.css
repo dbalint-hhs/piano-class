@@ -1,11 +1,12 @@
 * {
 box-sizing: border-box;
+  color: white;
 }
 
 
 body {
   display: grid;
-  align-items: center;
+  justify-items: center;
   background-color: white;
 }
 
@@ -17,5 +18,19 @@ body {
   background-color: black;
   max-width: 1349px;
   }
- 
+
+header {
+  grid-area: header;
+  background-color: green;
+}
+
+nav {
+  grid-area: nav;
+  background-color: blue;
+  }
+
+main {
+  grid-area: main;
+  background-color: purple;
+  }
 
