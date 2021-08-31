@@ -7,7 +7,7 @@ box-sizing: border-box;
 body {
   display: grid;
   justify-items: center;
-  background-color: white;
+  background-color: green;
 }
 
 #content-wrapper {
@@ -15,22 +15,28 @@ body {
   grid-template-areas: 
     "header header header"
     "nav main main";
+  grid-gap: 1rem;
   background-color: black;
+  width: auto;
   max-width: 1349px;
+
   }
 
 header {
   grid-area: header;
-  background-color: green;
+  background-color: black;
+  border-radius: 1rem;
 }
 
 nav {
   grid-area: nav;
-  background-color: blue;
+  background-color: black;
+  border-radius: 1rem;
   }
 
 main {
   grid-area: main;
-  background-color: purple;
+  background-color: black;
+  border-radius: 1rem;
   }
 
