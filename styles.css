@@ -18,7 +18,7 @@ body {
     "header header header"
     "nav main main";
   gap: 2rem;
-  background-color: black;
+  background-color: green;
   width: 100%;
   max-width: 1349px;
   border-radius: 1rem;
@@ -39,6 +39,7 @@ nav {
   border-radius: 1rem;
   width: 100%;
   height: 100%;
+  text-align: center;
   }
 
 main {
