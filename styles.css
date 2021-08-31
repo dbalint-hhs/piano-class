@@ -17,7 +17,7 @@ body {
   grid-template-areas: 
     "header header header"
     "nav main main";
-  gap: 2rem;
+  gap: 1rem;
   background-color: green;
   width: 100%;
   max-width: 1349px;
@@ -50,11 +50,12 @@ main {
   text-align: center;
   }
 
-main p {
-  margin: 1rem;
-}
-
 ul {
   list-style-type: none;
+}
+
+li {
+  width: 100%;
+  margin: auto;
 }
 
