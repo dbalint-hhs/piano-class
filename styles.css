@@ -13,7 +13,7 @@ body {
 #content-wrapper {
   display: grid;
   grid-template-columns: 1fr 4fr;
-  grid-template-rows: 20vw auto;
+  grid-template-rows: 20vh auto;
   grid-template-areas: 
     "header header header"
     "nav main main";
