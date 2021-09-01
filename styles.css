@@ -63,11 +63,7 @@ main {
   text-align: center;
   }
 
-#level-1-list {
-  display: none;
-}
-
-#level-2-list {
+#level-1-list, #level-2-list, #level-3-list {
   display: none;
 }
 
