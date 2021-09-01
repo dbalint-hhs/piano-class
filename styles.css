@@ -67,7 +67,7 @@ main {
   display: none;
 }
 
-#level-1-button:hover, #level-2-button:hover {
+#level-1-button:hover, #level-2-button:hover, #level-3-button:hover {
   cursor: pointer;
 }
 
