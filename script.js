@@ -10,14 +10,14 @@ let list2 = document.getElementById("level-2-list")
 
 // When the Level 1 button is clicked, hide splash and any other lists that might be open.
 
-list1.addEventListener("click", function(e) {
+list1.addEventListener("click", function() {
   console.log("Level 1 clicked!");
   splash.style.display = "none";
   list1.style.display = 'block';
   list2.style.display = 'none';
 });
                        
-list2.addEventListener("click", function(e) {
+list2.addEventListener("click", function() {
   console.log("Level 2 clicked!");
   splash.style.display = "none";
   list1.style.display = 'none';
