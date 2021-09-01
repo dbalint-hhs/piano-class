@@ -63,11 +63,11 @@ main {
   text-align: center;
   }
 
-#level-1-list, #level-2-list, #level-3-list {
+#level-1-list, #level-2-list, #level-3-list, #level-4-list, {
   display: none;
 }
 
-#level-1-button:hover, #level-2-button:hover, #level-3-button:hover {
+#level-1-button:hover, #level-2-button:hover, #level-3-button:hover, #level-4-button:hover {
   cursor: pointer;
 }
 
