@@ -71,8 +71,7 @@ main {
   cursor: pointer;
 }
 
-ul {
-  list-style-type: none;
+ol {
   padding: 0;
 }
 
