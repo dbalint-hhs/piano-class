@@ -71,7 +71,8 @@ main {
   cursor: pointer;
 }
 
-ol {
+ul {
+  list-style-type: none;
   padding: 0;
 }
 
@@ -88,4 +89,3 @@ footer {
   text-align: center;
   background-color: black;
 }
-
