@@ -6,15 +6,16 @@ let lists = document.getElementsByClassName('level-list');
 console.log(lists);
 let splash = document.getElementById('splash');
 
-let listLoader = function(i) {
+let listLoader = function() {
+  splash.setAttribute("display", "hidden");
   for (let j = 0; j < lists.length; j++) {
     lists[j].setAttribute("display", "hidden");
   }
-  splash.setAttribute("display", "hidden");
-  lists[i].setAttribute("display", "block");
+  let currentList = document.getElementById("level-" + this.id + "-list")
+  currentList.setAttribute("display", "block");
 }
 
 for (let i = 0; i < buttons.length; i++) {
-  buttons[i].addEventListener('click', listLoader(i));
+  buttons[i].addEventListener('click', listLoader());
 }
 
