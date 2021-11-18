@@ -11,7 +11,8 @@ let listLoader = function() {
   for (let j = 0; j < lists.length; j++) {
     lists[j].setAttribute("display", "hidden");
   }
-  let currentList = document.getElementById("level-" + this.id + "-list")
+  let currentList = document.getElementById("level-" + this.id + "-list");
+  console.log(currentList);
   currentList.setAttribute("display", "block");
 }
 
