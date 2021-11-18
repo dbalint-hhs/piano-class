@@ -6,18 +6,18 @@ let lists = document.getElementsByClassName('level-list');
 console.log(lists);
 let splash = document.getElementById('splash');
 
-let listLoader = function() {
+function listLoader(i) {
   console.log("Click detected!");
   splash.style.display = "none";
-   /* for (let j = 0; j < lists.length; j++) {
-    lists[j].setAttribute("display", "hidden");
+  for (let j = 0; j < lists.length; j++) {
+    lists[j].style.display = "none;
   }
-  let currentList = document.getElementById("level-" + this.id + "-list");
+  let currentList = document.getElementById("level-" + i + "-list");
   console.log(currentList);
-  currentList.setAttribute("display", "block"); */
+  currentList.style.display = "block";
 }
 
 for (let i = 0; i < buttons.length; i++) {
-  buttons[i].addEventListener('click', listLoader);
+  buttons[i].addEventListener('click', listLoader(i));
 }
 
