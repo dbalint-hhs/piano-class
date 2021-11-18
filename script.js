@@ -10,7 +10,7 @@ function listLoader(i) {
   console.log("Click detected!");
   splash.style.display = "none";
   for (let j = 0; j < lists.length; j++) {
-    lists[j].style.display = "none;
+    lists[j].style.display = "none";
   }
   let currentList = document.getElementById("level-" + i + "-list");
   console.log(currentList);
