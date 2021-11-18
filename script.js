@@ -7,6 +7,7 @@ console.log(lists);
 let splash = document.getElementById('splash');
 
 let listLoader = function() {
+  console.log("Click detected!")
   splash.setAttribute("display", "hidden");
    /* for (let j = 0; j < lists.length; j++) {
     lists[j].setAttribute("display", "hidden");
