@@ -6,8 +6,8 @@ let lists = document.getElementsByClassName('level-list');
 console.log(lists);
 let splash = document.getElementById('splash');
 
-function listLoader(i) {
-  console.log("Click detected!" + i);
+function listLoader() {
+  console.log("Click detected!" + this.id);
   splash.style.display = "none";
   /*
   for (let j = 0; j < lists.length; j++) {
@@ -20,6 +20,6 @@ function listLoader(i) {
 }
 
 for (let i = 0; i < buttons.length; i++) {
-  buttons[i].addEventListener('click', listLoader(i));
+  buttons[i].addEventListener('click', listLoader());
 }
 
