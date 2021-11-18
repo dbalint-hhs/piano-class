@@ -7,13 +7,14 @@ console.log(lists);
 let splash = document.getElementById('splash');
 
 function listLoader(i) {
-  console.log("Click detected!");
+  console.log("Click detected!" + i);
   splash.style.display = "none";
+  /*
   for (let j = 0; j < lists.length; j++) {
     lists[j].style.display = "none";
   }
-  console.log(i)
-  /* let currentList = document.getElementById("level-" + i + "-list");
+  
+  let currentList = document.getElementById("level-" + i + "-list");
   console.log(currentList);
   currentList.style.display = "block"; */
 }
