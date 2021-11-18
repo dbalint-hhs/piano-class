@@ -12,9 +12,10 @@ function listLoader(i) {
   for (let j = 0; j < lists.length; j++) {
     lists[j].style.display = "none";
   }
-  let currentList = document.getElementById("level-" + i + "-list");
+  console.log(i)
+  /* let currentList = document.getElementById("level-" + i + "-list");
   console.log(currentList);
-  currentList.style.display = "block";
+  currentList.style.display = "block"; */
 }
 
 for (let i = 0; i < buttons.length; i++) {
