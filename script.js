@@ -4,7 +4,7 @@ let buttons = document.getElementsByClassName('level-button');
 console.log(buttons);
 let lists = document.getElementsByClassName('level-list');
 console.log(lists);
-let splash = document.getElementByID('splash');
+let splash = document.getElementById('splash');
 
 let listLoader = function(i) {
   for (let j = 0; j < lists.length; j++) {
