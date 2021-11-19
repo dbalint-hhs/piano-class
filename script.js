@@ -6,6 +6,12 @@ let splash = document.getElementById('splash');
 
 let listLoader = function() {
   console.log("Click detected!");
+  splash.style.display = "none";
+  for (let i = 0; i < lists.length; i++) {
+    lists[i].style.display = "none";
+  };
+  let currentList = document.getElementById("level" + this.id);
+  currentList.style.display = "block";
 }
 
 for (let i = 0; i < buttons.length; i++) {
