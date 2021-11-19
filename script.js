@@ -10,7 +10,7 @@ let listLoader = function() {
   for (let i = 0; i < lists.length; i++) {
     lists[i].style.display = "none";
   };
-  list[this.id].style.display = "block";
+  lists[this.id].style.display = "block";
 }
 
 for (let i = 0; i < buttons.length; i++) {
