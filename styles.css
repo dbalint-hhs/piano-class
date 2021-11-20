@@ -97,3 +97,7 @@ footer {
   text-align: center;
   background-color: black;
 }
+
+#splash {
+  display: block;
+}
