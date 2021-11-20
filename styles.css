@@ -7,7 +7,7 @@ box-sizing: border-box;
 body {
   display: grid;
   justify-items: center;
-  background-color: green;
+  background-color: black;
   margin: 0;
 }
 
