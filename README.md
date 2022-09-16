@@ -21,3 +21,5 @@ DEVELOPMENT PLAN
 5. Logo & Splash
         "Welcome to the HHS Piano Page" is not a header, it's a splash.  The header should be reduced to the upper left corner and replaced with a logo.  The initial screen should welcome the user.
 
+6. Responsive Design
+        This page should be usable on tablets and mobiles.

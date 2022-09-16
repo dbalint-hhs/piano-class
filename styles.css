@@ -36,17 +36,43 @@ header {
   text-align: center;
 }
 
+/* Accordion Stuff */
+
 nav {
   grid-area: nav;
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
+  justify-content: center;
   background-color: black;
   border-radius: 1rem;
   width: 100%;
   height: 100%;
   text-align: center;
   }
+
+.accordion .item {
+  border-bottom: 1px solid #C2C2C2;
+}
+
+.accordion .item .acc-heading {
+  display: block;
+  padding: 11px 22px;
+}
+
+.acordion .item .acc-heading.active {
+  margin: 0;
+  overflow: hidden;
+}
+
+.accordion .item .acc-content {
+  margin: 0;
+  overflow: hidden;
+  transition: all 0.3s;
+}
+
+.accordion .item .acc-content .inner {
+  padding: 0 22px 22px;
+}
 
 nav ul li {
   font-weight: bolder;
