@@ -16,23 +16,23 @@ body {
   grid-template-columns: 1fr 4fr;
   grid-template-rows: auto 1fr auto;
   grid-template-areas: 
-    "header header header"
+    "header main main"
     "nav main main"
-    "footer footer footer";
-  gap: 1rem;
+    "footer main main";
+  gap: .5rem;
   background-color: green;
   width: 100%;
   max-width: 1349px;
   min-height: 100vh;
   border-radius: 1rem;
-  padding: 1rem;
+  padding: .5rem;
 
   }
 
 header {
   grid-area: header;
   background-color: black;
-  border-radius: 2rem;
+  border-radius: 1rem;
   text-align: center;
 }
 
