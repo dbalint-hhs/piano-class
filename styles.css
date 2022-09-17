@@ -38,7 +38,34 @@ header {
 
 /* Accordion Stuff */
 
+#list-of-levels {
+  width: 100%;
+  transition: .25s linear;
+  position: absolute;
+}
+
+
+.inactive {
+  transform: translate(-400px);
+}
+
+
+
+#level-1-songs {
+  width: 100%;
+  position: absolute;
+  left: 400px;
+  transition: .25s linear;
+}
+
+.active {
+  transform: translate(-400px);
+}
+
+
+
 nav {
+  position: relative;
   grid-area: nav;
   display: flex;
   flex-direction: column;
@@ -48,35 +75,17 @@ nav {
   width: 100%;
   height: 100%;
   text-align: center;
+  overflow-x: hidden;
   }
 
-.accordion .item {
-  border-bottom: 1px solid #C2C2C2;
-}
-
-.accordion .item .acc-heading {
-  display: block;
-  padding: 11px 22px;
-}
-
-.acordion .item .acc-heading.active {
-  margin: 0;
-  overflow: hidden;
-}
-
-.accordion .item .acc-content {
-  margin: 0;
-  overflow: hidden;
-  transition: all 0.3s;
-}
-
-.accordion .item .acc-content .inner {
-  padding: 0 22px 22px;
-}
 
 nav ul li {
   font-weight: bolder;
 }
+
+
+
+
 
 main {
   display: flex;
@@ -92,6 +101,8 @@ main {
 .level-list {
   display: none;
 }
+
+
 
 .level-button {
   cursor: pointer;
