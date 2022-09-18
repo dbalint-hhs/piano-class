@@ -21,12 +21,15 @@ DEVELOPMENT PLAN
 5. Logo & Splash [   ]
         "Welcome to the HHS Piano Page" is not a header, it's a splash.  The header should be reduced to the upper left corner and replaced with a logo.  The initial screen should welcome the user.
 
-6. Better Leveling [   ]
+6. Acknowledgments & Change Log
+        I need to find a place to track the version and acknowledge the source of the materials.
+
+7. Better Leveling [   ]
         Each level should contain fewer songs which are more targeted toward a particular skill to master.  This should result in many of the current Levels being broken into several, and more levels overall.
         Each song list should also start with a link to a video or diagram explaining that level's focus.
 
-7. Modern Songs [   ]
+8. Modern Songs [   ]
         Kids will be enticed with more popular songs mixed in appropriately with the current, stale selections.
 
-8. Responsive Design [   ]
+9. Responsive Design [   ]
         This page should be usable on tablets and mobiles.
