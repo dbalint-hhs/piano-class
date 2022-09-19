@@ -46,3 +46,4 @@ DEVELOPMENT PLAN
 10. User authentication and progress tracking. [   ]
 
         Kids skip songs all the time and hurt their progress by not following the sequence.  Creating a log in and forcing them in prescribed choices at each level of learning on an individual basis will prevent this lost time and also allow a bit more sense of discovery (as well as the excitement of "unlocking" new songs.)
+
