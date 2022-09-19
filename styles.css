@@ -14,9 +14,8 @@ body {
 #content-wrapper {
   display: grid;
   grid-template-columns: 1fr 3fr;
-  grid-template-rows: auto 1fr auto;
+  grid-template-rows: 9fr 1fr;
   grid-template-areas: 
-    "nav main"
     "nav main"
     "footer main";
   gap: .5rem;
@@ -157,8 +156,6 @@ li {
 footer {
   grid-area: footer;
   display: flex;
-  justify-content: center;
-  align-items: center;
   border-radius: 1rem;
   width: 100%;
   height: 100%;
@@ -166,14 +163,22 @@ footer {
 }
 
 footer a {
-  width: 60%;
-  height: 60%;
-
+  display: block;
+  width: 50%;
+  height: 100%;
+  border-radius: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 footer a img {
-  height: 100%;
-  width: 100%;
+  width: 35%;
+  height: auto;
+}
+
+#video-link img {
+  width: 60%;
 }
 
 #splash {
