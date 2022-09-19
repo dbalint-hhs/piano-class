@@ -16,9 +16,9 @@ body {
   grid-template-columns: 1fr 3fr;
   grid-template-rows: auto 1fr auto;
   grid-template-areas: 
-    "header main main"
-    "nav main main"
-    "footer main main";
+    "nav main"
+    "nav main"
+    "footer main";
   gap: .5rem;
   background-color: green;
   width: 100%;
@@ -29,14 +29,16 @@ body {
 
   }
 
+  /*
 header {
   grid-area: header;
   background-color: black;
   border-radius: 1rem;
   text-align: center;
 }
+*/
 
-/* Accordion Stuff */
+/* Nav Stuff */
 
 #level-list {
   width: 100%;
