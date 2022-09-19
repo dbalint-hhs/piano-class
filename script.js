@@ -8,6 +8,7 @@ let backButton = document.getElementById("back-button");
 let iframe = document.getElementById("iframe");
 let splash = document.getElementById("splash");
 let videoLink = document.getElementById("video-link");
+let pdfLink = document.getElementById("pdf-link");
 
 
 
@@ -53,4 +54,5 @@ function loadSong(e) {
   iframe.style.height = "100%";
   iframe.src = this.dataset.pdf + "#zoom=118";
   videoLink.href = this.dataset.video;
+  pdfLink.href = this.dataset.pdf +"#zoom=83";
 }
